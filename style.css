@@ -97,3 +97,51 @@ body{
     color: var(--Slightly-transparent-white-stat-headings);
     margin-top: 5px;
 }
+
+@media (max-width: 1440px) {
+    body{
+        padding: 30px;
+    }
+    .conteinner {
+        display: grid;
+        grid-template-rows: auto auto;
+        width: 60%;
+        height: 750px;
+    }
+    .foto{
+        background-image: url(/images/image-header-mobile.jpg);
+    }
+    .description{
+        height: 100%;
+        padding: 0 25px;
+    }
+    .description h1{
+        text-align: center;
+        margin: 0;
+    }
+    br{
+        display: none;
+    }
+    .description p{
+        text-align: center;
+        line-height: 25px;
+        padding: 0 14px;
+    }
+    .cifras-conteinner {
+        display: flex;
+        margin-top: 0;
+        justify-content: center;
+        gap: 0;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .cifras-conteinner p{
+        margin-top: 0px;
+    }
+    .cifra{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
